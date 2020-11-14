@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+
+body {
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+    padding-bottom: 0;
+}
+
+.logo-text {
+    color: #fff;
+    position: relative;
+    z-index: -1;
+    bottom: 160px;
+    right: 2rem;
+    text-transform: uppercase;
+    font-family: 'Xanh Mono', monospace, sans-serif;
+    text-align: center;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: 'Xanh Mono', monospace, sans-serif;
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
+
+.custom-header {
+    background-color: #46aae8;
+}
+
+.custom-header a {
+    color: #fff;
+}
+
+.custom-header a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.disclaimer-text {
+    color: #fff;
+}
+
+/* -------------------Responsive------------------- */
+
+@media(max-width:1200px) {
+    .responsive {
+        position: relative;
+        left: 13.5rem;
+    }
+
+    .logo-text {
+       top: .3rem;
+    }
+}
+
+@media(max-width:1196px) {
+    .responsive {
+        left: 10rem;
+    }
+}
+
+@media(max-width:988px) {
+    .responsive {
+        left: 5rem;
+    }
+}
+
+@media(max-width:764px) {
+    .responsive {
+        left: 7rem;
+    }
+}
+
+@media(max-width:575px) {
+    .responsive {
+        left: 8rem;
+    }
+}
+
+@media(max-width:425px) {
+    .responsive {
+        left: 3.5rem;
+    }
+}
+
+@media(max-width:375px) {
+    .logo-text {
+        right: .8rem;
+    }
+}
+
+@media(max-width:320px) {
+    .responsive {
+        left: 2rem;
+    }
+}
