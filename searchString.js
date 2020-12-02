@@ -8,7 +8,7 @@ function loadBook(filename, displayName) {
     document.getElementById("searchstat").innerHTML = "";
     document.getElementById("keyword").value = "";
 
-    //create a server a request to load book
+    //create a server request to load book
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url, true);
     xhr.send();
